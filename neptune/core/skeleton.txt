@@ -11,7 +11,7 @@
 Author  : 
 Created : 
 Version : 
-Compatible with PowerShell 5.x only — not supported in Core / 7+
+miscellaneous: Compatible with PowerShell 5.x only — not supported in Core / 7+
 
 #>
 param(
@@ -24,4 +24,5 @@ param(
     []$Algo="SHA256",
 
 )
+
 
