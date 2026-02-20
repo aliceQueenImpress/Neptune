@@ -1,0 +1,27 @@
+<#
+.synopsis
+
+.description
+
+.parameter 
+
+.example
+
+.notes
+Author  : 
+Created : 
+Version : 
+Compatible with PowerShell 5.x only — not supported in Core / 7+
+
+#>
+param(
+    [parameter(
+        Mandatory=$false,
+        Position=1
+    )]
+    [ValidateNotNullOrEmpty()]
+    [ValidateSet()]
+    []$Algo="SHA256",
+
+)
+
